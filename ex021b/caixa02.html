@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas em caixas</title>
+    <style>
+        body{
+            background-color: #a19e9ee0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-weight: 200;
+        
+            
+        }
+        header{
+            background-color: #e1e6eb;
+            color: black;
+        }
+        main {
+            background-color: antiquewhite;
+            
+        }
+        aside{
+            background-color: azure;
+        }
+        article{
+            background-color: azure;
+        }
+        header > h1{
+            background-color: #a6dada;
+            padding:  auto ;
+            border: blue 20px;
+            text-align: center;
+            margin: 0px;
+            box-shadow: grey 1px 2px 10px;
+            border-radius: 50px  ; /* Emcima, lado, baixo a esquerda.*/
+        }
+        article > p {
+            color: green;
+            
+        }
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            
+        }
+        nav > a:hover{
+            color: yellow;
+            text-decoration: underline;
+           background-color: #939797d5;
+           
+        }
+        footer > p{
+            background-color: #585757;
+            color: white;
+            text-align: center;
+            border:20px ;
+            outline: white 3px groove;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: #5e5c5c 1px 5px 7px; 
+            border-radius: 5px 20px ;
+        }
+        article > h2 {
+            background-color: #42b4b4 ;
+            box-shadow:  #131212 1px 1px 10px;
+        }
+        div#bola {
+            height:100px ;
+            width: 100px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tentando ser útil</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique dignissimos, est iusto eius iste nemo sed quod, expedita numquam consectetur necessitatibus aliquid quam nam natus reiciendis. Aliquam explicabo quasi rerum.</p>
+        <nav>
+            <a href="http://instagram.com" target="_blank" rel="noopener noreferrer">instagram: </a>
+            <a href="http://www.youtube.com "target="_blank" rel="noopener noreferrer"> Youtube</a>
+        </nav>
+    </header>
+    <main>
+        <section id="primeira">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quis aperiam quam alias ab? Itaque nemo architecto explicabo expedita dolorem quod, illo iusto beatae eaque. Sit velit sint est consequuntur!</p>
+        
+        </section>
+        <section id="segunda">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi nostrum labore eveniet suscipit? Numquam provident minus voluptatum ullam reiciendis laborum quos eum mollitia esse aspernatur iure, ea nostrum incidunt recusandae!</p>
+        </section>
+    </main>
+    <footer>
+        <article>
+            <h2>Trabalhos pesados</h2>
+            <aside>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est modi error accusantium vero non sequi quod, ut repudiandae sit eveniet. Modi aut aliquid aperiam atque consequuntur esse, cum quis nostrum.
+            </aside>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatibus eius accusamus cupiditate odit, tempora, commodi non, quae tempore fugit doloremque ipsum facilis voluptate hic. Commodi nisi rem praesentium distinctio!</p>
+        </article>
+        <p>Criador do site: Melquisedeque de Olveira</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

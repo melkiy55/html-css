@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #5CA4EA;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+body{
+           
+    background-image:linear-gradient( #49f149d7, #1af11ab4,#057905d7);
+   background-attachment: fixed;
+    text-align: left;
+    font:normal 10px arial, verdana, serif;
+
+}
+
+ h1{
+    text-align: center;
+ 
+ 
+ }
+p{
+    text-align: center;
+font-size: large; 
+}
+
+h2{
+   cursor: pointer;
+    background-image:linear-gradient(#f1f11c);
+    background-size:100% 20% ;
+    background-repeat: repeat-x;
+    background-position: 0% calc(100% -3px);
+    transition: .3s;
+    background-size:100% 100%;
+
+    
+
+    font-family: 'Arial Narrow', Arial, sans-serif;
+font-size: 2em;
+text-align: center;
+
+}
+ h3{
+    text-align: center;
+    font-size: larger;
+
+ }
+ a{
+    font-size: larger;
+    color: #050303;
+
+ }

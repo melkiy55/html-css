@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Level e Inline-Level</title>
+    <style>
+
+h1{ /* Por padrão o h1 é BOX-LEVEL,MAS PODE SER INLINE USANDO A TAG DISPLAY*/
+    display:inline-flex;
+    background-color: grey;
+    height: 30px ;
+    width: 30;
+    
+    border: #5bd813e7 35px groove;
+  /* border: #f3f311;
+    border-width: 30px ;      O RESUMO DO BORDER
+    border-style: groove;    ------------------/* Minha Borda é depois do pedding.*/
+    
+    margin:  25px   ;
+   
+   /* margin: 10px;
+    margin: green ;       /* ----------------------Minha Margin fica fora, depois da borda.*/
+    
+    padding: 20px 10px ;
+   /* padding-top: 10px;    /* ------------------------Meu pedding fica dentro*/
+   /* padding-right: 10px;
+    padding-bottom: 10px;       --O RESUMO DO PADDING--
+    padding-left: 10px;*/ 
+    
+    outline: 3px dashed red;
+   
+  /*outline-style: dashed;
+    outline-width: 5px;     ---ESSE DE CIMA E O RESUMO DAS TRêS LINHAS.---
+    outline-color: red;*/
+    
+}
+a{ /*Inline-Level */
+    border-width: 30px;
+    border: #f51818be ;
+    border-style:groove; /* pode ser Groove, Solid,Dashed ,Dotted, Boble*/
+    
+    padding-top: 1px;
+    padding-right: 1px;   /*  padding é a altura da barda nas direções*/
+    padding-bottom: 1px;
+    padding-left: 1px;
+  
+}
+
+    </style>
+</head>
+<body>
+    <h1>Modelos de Caixas</h1>
+    <p>Vamos ver modelos de caixas e como elas funcionam, <a href="#">Links são caixas inline level</a>
+    ou seja a caixa da um espaço e continua na mesma linha.</p>
+
+</body>
+</html>
