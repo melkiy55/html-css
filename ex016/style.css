@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    line-height: normal;
+     font-family:sans-serif ;
+}
+
+body {
+        background-image: linear-gradient( to "reight", #2525e2, #f3f32e);
+}
+ 
+font {  font-style: oblique;                                                                                                    color: #80D8F1; 
+                }
+h1 { color:  rgb(19, 82, 124);}
+
+ 
+ p{ 
+   color: rgb(443110);                                                                                                          }
+
+ h2{ color: hsla(0, 95, 8, 1); 
+   }

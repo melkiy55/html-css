@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*  ----Seletores Personalizados---- 
+        # = id
+        . = class
+        > = clildren-(Filho)
+        : = Pseudo-Class
+       :: = Pseudo-Elemento
+        */
+
+        body{
+        font-family: sans-serif;
+        background-color: #3b3a3a;
+        }
+        a {
+                color: #ff0f0fc2;
+                text-decoration:none ;
+                font-weight: bold;
+            }
+        a:visited{
+            color: #f3dc0d;
+        }
+
+        a:active{
+                color: #f3f344;
+        }
+        .especial{
+            color: white;
+            background-color: #3b3a3a;
+        }
+
+        
+        
+        .especial::before{
+            content: ' [especial]  ';
+        }
+        .especial::after /* after significa depois,os dois pontos :: significa pseudo elementos */{
+            content: '[link]';
+            color: #54e6e6;
+        }
+        a:hover {
+                color: #1f1c1c;
+                text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+        <ul>
+            <li> <a href="https://www.youtube.com/watch?v=OQDxVJnRVEs" target="_blank"> Youtube </a></li>
+            <li> <a href="https://www.instagram.com/" target="_blank"> Instagram</a></li>
+            <li> <a href="https://mangalivre.net/" target="_blank" class="especial">Manga livre </a></li>
+        </ul>
+    
+</body>
+</html>
